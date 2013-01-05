@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/kennyj/execjs.git
+  revision: 642067e4b48a16b160bd7c6d9288535127843c4f
+  specs:
+    execjs (1.2.6)
+      multi_json (~> 1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -38,8 +45,6 @@ GEM
       execjs
     coffee-script-source (1.4.0)
     erubis (2.7.0)
-    execjs (1.4.0)
-      multi_json (~> 1.0)
     hike (1.2.1)
     i18n (0.6.1)
     journey (1.0.4)
@@ -104,6 +109,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
+  execjs!
   jquery-rails
   rails (= 3.2.1)
   sass-rails (~> 3.2.3)
